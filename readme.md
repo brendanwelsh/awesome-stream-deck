@@ -142,6 +142,7 @@ The [Stream Deck](https://www.elgato.com/us/en/p/stream-deck) is a programmable 
 - [ideckia](https://github.com/ideckia/ideckia) - Cross-platform server that turns phones and browsers into a deck.
 - [SuperConductor](https://github.com/SuperFlyTV/SuperConductor) - Playout client that controls CasparCG, ATEM, OBS, vMix, OSC, and more.
 - [Touch Portal](https://www.touch-portal.com/) - Macro-deck app for Android, iOS, and desktop with a large plugin library.
+- [Codecks](https://github.com/vaddisrinivas/codecks) - Android command deck, Bluetooth trackpad, and Mac automation surface.
 
 ## Hardware and DIY
 
