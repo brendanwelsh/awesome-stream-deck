@@ -79,6 +79,7 @@ The [Stream Deck](https://www.elgato.com/us/en/p/stream-deck) is a programmable 
 - [OTP](https://github.com/gri-gus/otp-streamdeck-plugin) - Generate one-time passwords like an authenticator app.
 - [Stopwatch](https://github.com/gabe565/streamdeck-stopwatch) - Start, stop, and reset a stopwatch on a key.
 - [Jira](https://github.com/mediabounds/streamdeck-jira) - Surface Jira issues, Confluence content, and JSM alerts.
+- [ClauDeck](https://marketplace.elgato.com/product/claudeck-2ed8dd1e-1a28-4442-b5df-7d2e16d4f6d1) - Watch live Claude Code sessions, approve or deny their permission prompts, and follow plan usage.
 
 ## Plugins for Home and Network Automation
 
