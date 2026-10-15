@@ -3,7 +3,7 @@
 > A curated list of awesome plugins, tools, libraries, icons, and resources for the Elgato Stream Deck.
 
 <p align="center">
-  <a href="https://www.elgato.com/stream-deck">
+  <a href="https://www.elgato.com/us/en/p/stream-deck">
     <img src="media/logo.svg" width="480" alt="Awesome Stream Deck">
   </a>
 </p>
@@ -31,7 +31,7 @@ The [Stream Deck](https://www.elgato.com/us/en/p/stream-deck) is a programmable 
 
 - [Stream Deck SDK](https://docs.elgato.com/streamdeck/sdk/introduction/getting-started/) - Official documentation and tooling for building plugins.
 - [Stream Deck Node SDK](https://github.com/elgatosf/streamdeck) - Official TypeScript and Node.js SDK for creating plugins.
-- [Stream Deck CLI](https://github.com/elgatosf/cli) - Official command-line tool to scaffold, test, and bundle plugins.
+- [Stream Deck CLI](https://github.com/elgatosf/streamdeck/tree/main/packages/cli) - Official command-line tool to scaffold, test, and bundle plugins.
 - [Plugin Samples](https://github.com/elgatosf/streamdeck-plugin-samples) - Official sample plugins that demonstrate the SDK.
 - [Elgato Marketplace](https://marketplace.elgato.com/stream-deck) - Official store for plugins, icon packs, and profiles.
 - [Stream Deck App](https://www.elgato.com/us/en/s/downloads) - Official desktop software for Windows and macOS.
@@ -43,7 +43,7 @@ The [Stream Deck](https://www.elgato.com/us/en/p/stream-deck) is a programmable 
 - [OBS Studio Plugin (source)](https://github.com/elgatosf/streamdeck-obs-plugin2) - Open-source code for the official OBS Studio integration.
 - [Multi OBS Controller](https://github.com/theca11/multi-obs-controller) - Control multiple OBS instances at once from a single key.
 - [Meld Studio](https://github.com/MeldStudio/streamdeck) - Official plugin to control scenes and audio in Meld Studio.
-- [vMix](https://github.com/FlowingSPDG/streamdeck-vmix-plugin) - Control vMix inputs, overlays, and transitions.
+- [vMix](https://github.com/MikanseiLaboratory/streamdeck-studiocoast-vmix) - Control vMix inputs, overlays, and transitions.
 - [Meme Box](https://github.com/negue/meme-box) - Manage and trigger media as OBS browser sources from your keys.
 
 ## Plugins for Audio and Music
@@ -55,6 +55,7 @@ The [Stream Deck](https://www.elgato.com/us/en/p/stream-deck) is a programmable 
 - [YouTube Music](https://github.com/XeroxDev/YTMD-StreamDeck) - Control the YouTube Music Desktop app from your keys.
 - [VLC](https://github.com/RGPaul/streamdeck-vlc) - Control VLC media player playback.
 - [Audio Swap](https://github.com/brendanwelsh/streamdeck-audioswap) - Swap the default audio output device and control master volume from a dial.
+- [TotalMix FX](https://github.com/shells-dw/streamdeck-totalmix) - Control RME TotalMix FX faders, mutes, and routing.
 
 ## Plugins for Communication and Meetings
 
@@ -79,6 +80,9 @@ The [Stream Deck](https://www.elgato.com/us/en/p/stream-deck) is a programmable 
 - [OTP](https://github.com/gri-gus/otp-streamdeck-plugin) - Generate one-time passwords like an authenticator app.
 - [Stopwatch](https://github.com/gabe565/streamdeck-stopwatch) - Start, stop, and reset a stopwatch on a key.
 - [Jira](https://github.com/mediabounds/streamdeck-jira) - Surface Jira issues, Confluence content, and JSM alerts.
+- [ClauDeck](https://marketplace.elgato.com/product/claudeck-2ed8dd1e-1a28-4442-b5df-7d2e16d4f6d1) - Watch live Claude Code sessions, approve or deny their permission prompts, and follow plan usage.
+- [AgentDeck](https://github.com/puritysb/AgentDeck) - Dashboards and physical controls for AI coding agents.
+- [Stream Deck MCP](https://github.com/verygoodplugins/streamdeck-mcp) - MCP server that lets AI assistants set buttons, manage pages, and wire actions.
 
 ## Plugins for Home and Network Automation
 
@@ -100,6 +104,9 @@ The [Stream Deck](https://www.elgato.com/us/en/p/stream-deck) is a programmable 
 - [Stock Ticker](https://github.com/shayne/stock-ticker-stream-deck-plugin) - Display live stock prices on a key.
 - [Nightscout](https://github.com/gabe565/streamdeck-nightscout) - Display live blood-glucose readings from a Nightscout server.
 - [TeslaFi](https://github.com/f00d4tehg0dz/Teslafi-Status-Plugin-for-Eglato-Streamdeck) - Show live Tesla vehicle stats via TeslaFi or TeslaMate.
+- [LibreHardwareMonitor](https://github.com/moeilijk/lhm-streamdeck) - Show LibreHardwareMonitor sensor readings on your keys.
+- [ShoMetrics](https://github.com/ShoMetrics/sho_metrics) - Monitor system metrics such as CPU, GPU, and memory.
+- [HWiNFO64 Sensors](https://github.com/moeilijk/hwinfo-streamdeck) - Actively maintained alternative for showing HWiNFO64 sensor readings.
 
 ## Plugins for Gaming and Simulation
 
@@ -112,6 +119,7 @@ The [Stream Deck](https://www.elgato.com/us/en/p/stream-deck) is a programmable 
 - [SimHub Plugin](https://github.com/pre-martin/StreamDeckSimHubPlugin) - Keep your keys in sync with SimHub telemetry.
 - [TrackAudio](https://github.com/neilenns/streamdeck-trackaudio) - Control TrackAudio for VATSIM air-traffic-control voice.
 - [vJoy](https://github.com/ashupp/Streamdeck-vJoy) - Map keys to virtual joystick buttons.
+- [iRaceDeck](https://github.com/niklam/iracedeck) - Control iRacing from your keys, with support for Mirabox and Ulanzi decks.
 
 ## Developer Libraries and SDKs
 
@@ -133,10 +141,11 @@ The [Stream Deck](https://www.elgato.com/us/en/p/stream-deck) is a programmable 
 - [Bitfocus Companion](https://github.com/bitfocus/companion) - Turn a deck into a control surface for broadcast gear and software.
 - [Companion Satellite](https://github.com/bitfocus/companion-satellite) - Connect remote decks to a Companion instance over the network.
 - [OpenDeck](https://github.com/nekename/OpenDeck) - Cross-platform app that runs original Elgato plugins on Linux, Windows, and macOS.
-- [Macro Deck](https://github.com/SuchByte/Macro-Deck) - Free software that turns an Android device into a customizable macro pad.
+- [Macro Deck](https://github.com/Macro-Deck-App/Macro-Deck) - Free software that turns an Android device into a customizable macro pad.
 - [StreamController](https://github.com/StreamController/StreamController) - Elegant Linux app with plugin support.
 - [streamdeck-linux-gui](https://github.com/streamdeck-linux-gui/streamdeck-linux-gui) - GUI for configuring devices on Linux.
 - [Code Deck](https://github.com/hagronnestad/code-deck) - Cross-platform open-source alternative to the official app.
+- [Ulanzi D200 for Linux](https://github.com/racerxdl/ulanzi-d200-linux) - Manage a Ulanzi D200 deck on Linux.
 - [DeckSurf](https://github.com/dend/DeckSurf) - Open command-line tooling to control devices.
 - [deckmaster](https://github.com/muesli/deckmaster) - Lightweight application to control a deck on Linux.
 - [ideckia](https://github.com/ideckia/ideckia) - Cross-platform server that turns phones and browsers into a deck.
@@ -157,6 +166,8 @@ The [Stream Deck](https://www.elgato.com/us/en/p/stream-deck) is a programmable 
 - [Fluent UI Icon Pack](https://github.com/czottmann/streamdeck-iconpack-fluentui-system-icons) - Free icon packs based on Microsoft Fluent UI System Icons.
 - [Lovely Sim Racing Icons](https://github.com/Lovely-Sim-Racing/lovely-streamdeck-icons) - Collection of sim racing icons.
 - [Nerd or Die Free Icons](https://nerdordie.com/blog/editorial/free-stream-deck-icon-pack/) - Free pack of polished icons for Stream Deck and Touch Portal.
+- [Simple Icons Pack](https://github.com/mackenly/simple-icons-stream-deck) - Brand and tool logos based on Simple Icons.
+- [Button Designer](https://github.com/addyzone/button-designer) - Interactive designer for custom key icons.
 
 ## Guides and Tutorials
 
